@@ -14,7 +14,7 @@ export function ContactList() {
 
   return (
     <ul>
-      {filteredContacts.lenth === 0 && <Message />}
+      {filteredContacts.length === 0 && <Message />}
       {Array.isArray(filteredContacts) &&
         filteredContacts.map(({ id, name, number }) => {
           return (
