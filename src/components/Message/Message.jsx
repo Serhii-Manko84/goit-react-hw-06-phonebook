@@ -9,4 +9,6 @@ export function Message({ text }) {
   );
 }
 
-Message.prototype = { text: PropTypes.string.isRequired };
+Message.prototype = {
+  text: PropTypes.string.isRequired,
+};
